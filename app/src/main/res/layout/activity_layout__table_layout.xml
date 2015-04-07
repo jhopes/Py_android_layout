@@ -1,0 +1,24 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/accent_material_dark">
+
+    <TableRow>
+        <TextView android:text="1.1" android:textSize="25dp" />
+        <TextView android:text="1.2" android:textSize="25dp" />
+        <TextView android:text="1.3" android:textSize="25dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="2.1" android:textSize="25dp" />
+        <TextView android:text="2.2" android:textSize="25dp" />
+        <TextView android:text="2.3" android:textSize="25dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="3.1"
+            android:layout_span="2" android:textSize="25dp" />
+        <TextView android:text="3.2" android:textSize="25dp"/>
+    </TableRow>
+</TableLayout>

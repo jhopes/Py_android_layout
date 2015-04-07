@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pe.edu.upeu.www.py_clase08_04_15" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".layout_LinearLayout"
+            android:label="@string/title_activity_layout__linear_layout" >
+        </activity>
+        <activity
+            android:name=".layout_TableLayout"
+            android:label="@string/title_activity_layout__table_layout" >
+        </activity>
+        <activity
+            android:name=".layout_GridLayout"
+            android:label="@string/title_activity_layout__grid_layout" >
+        </activity>
+        <activity
+            android:name=".layout_RelativeLayout"
+            android:label="@string/title_activity_layout__relative_layout" >
+        </activity>
+    </application>
+
+</manifest>

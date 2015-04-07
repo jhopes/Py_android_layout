@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Py_clase08_04_15</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_layout__linear_layout">layout_LinearLayout</string>
+    <string name="title_activity_layout__table_layout">layout_TableLayout</string>
+    <string name="title_activity_layout__grid_layout">layout_GridLayout</string>
+    <string name="title_activity_layout__relative_layout">layout_RelativeLayout</string>
+</resources>
